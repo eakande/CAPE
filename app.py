@@ -10,7 +10,7 @@ def format_dropdown_labels(val):
 
 # Define page settings
 st.set_page_config(
-    page_title='LIME explainer app for classification models',
+    page_title='Sentiments Analysis',
     # layout="wide"
 )
 
