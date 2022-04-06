@@ -6,5 +6,5 @@ textblob==0.15.3
 cython==0.29.3
 fasttext==0.9.1
 lime==0.1.1.36
-streamlit==0.67.1
+streamlit
 click<=8.0.4
