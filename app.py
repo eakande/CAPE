@@ -20,7 +20,7 @@ col1, col2 = st.columns(2)
 col1.image(display, width = 800)
 
 # Build app
-title_text = 'LIME Explainer Dashboard for Fine-grained Sentiment'
+title_text = 'Explainer Dashboard for Sentiment Analysis'
 subheader_text = '''1: Strongly Negative &nbsp 2: Weakly Negative &nbsp  3: Neutral &nbsp  4: Weakly Positive &nbsp  5: Strongly Positive'''
 
 st.markdown(f"<h2 style='text-align: center;'><b>{title_text}</b></h2>", unsafe_allow_html=True)
