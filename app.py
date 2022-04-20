@@ -5,7 +5,7 @@ import numpy as np
 from lime_explainer import explainer, tokenizer, METHODS
 import nltk
 
-  nltk.download('vader_lexicon')
+nltk.download('vader_lexicon')
 
 
 def format_dropdown_labels(val):
