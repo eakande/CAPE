@@ -3,6 +3,9 @@ import streamlit.components.v1 as components
 from PIL import  Image
 import numpy as np
 from lime_explainer import explainer, tokenizer, METHODS
+import nltk
+
+  nltk.download('vader_lexicon')
 
 
 def format_dropdown_labels(val):
