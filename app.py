@@ -30,7 +30,7 @@ st.markdown(f"<h2 style='text-align: center;'><b>{title_text}</b></h2>", unsafe_
 st.markdown(f"<h5 style='text-align: center;'>{subheader_text}</h5>", unsafe_allow_html=True)
 st.text("")
 input_text = st.text_input('Enter your text:', "")
-n_samples = st.text_input('Number of samples to generate for LIME explainer: (For really long input text, go up to 5000)', value=1000)
+n_samples = st.text_input('Number of samples to generate for Sentiment Explainer: (For really long input text, go up to 5000)', value=1000)
 method_list = tuple(label for label, val in METHODS.items())
 method = st.selectbox(
     'Choose classifier:',
